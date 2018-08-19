@@ -1,0 +1,22 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.menu-bar{
+  	-fx-border-color:  #f0cd90;
+  	-fx-border-width: 2;
+}
+
+.menu-bar .label {
+    -fx-font-size: 25 pt;
+    -fx-font-family: "Segoe UI Light";
+
+}
+
+.menu:hover {
+    -fx-background-color: #bc784e;
+}
+
+.menu-item .label{
+	-fx-font-size: 25 pt;
+	-fx-label-line-length: 8;
+	-fx-text-fill: black;
+}
